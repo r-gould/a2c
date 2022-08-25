@@ -35,5 +35,5 @@ if __name__ == "__main__":
 
     main(env_str="InvertedPendulum-v4", 
          actor_lr=1e-4, critic_lr=1e-3,
-         episodes=750, horizon=99999,
+         episodes=100, horizon=99999,
          gamma=0.9)

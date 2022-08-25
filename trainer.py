@@ -33,6 +33,6 @@ class Trainer:
             critic_losses.append(critic_loss)
 
         if save_model:
-            torch.save(agent.state_dict(), "a2c/saved/agent.pt")
+            torch.save(agent.state_dict(), "saved/agent.pt")
             
         return scores, actor_losses, critic_losses

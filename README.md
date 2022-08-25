@@ -5,4 +5,4 @@ An implementation of the A2C algorithm in PyTorch, as described in the paper '[A
 
 An example of training the algorithm with the OpenAI gyms InvertedPendulum-v4 and HalfCheetah-v4,
 
-(images/plots.png)
+!(images/plots.png)

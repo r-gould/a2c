@@ -16,7 +16,7 @@ def plot_data(scores, actor_losses, critic_losses, name="Scores", window=10):
     plt.plot(scores, label="Raw")
     plt.plot(smooth_scores, label="Smoothed")
     plt.legend(loc="upper left")
-    plt.savefig(f"a2c/plots/{name}.png")
+    plt.savefig(f"plots/{name}.png")
     plt.show()
 
     plt.title("Actor loss")
